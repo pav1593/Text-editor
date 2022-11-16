@@ -30,7 +30,7 @@ module.exports = () => {
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
-      
+
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
@@ -39,8 +39,8 @@ module.exports = () => {
         description: 'Takes notes with JavaScript syntax highlighting!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        score: '.',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
