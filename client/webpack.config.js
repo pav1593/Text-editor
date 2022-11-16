@@ -13,7 +13,7 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      cards: './src/js/editor.js'
+      editor: './src/js/editor.js'
     },
     output: {
       filename: '[name].bundle.js',
@@ -22,7 +22,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Contact Cards'
+        title: 'Text Editor'
       }),
 
       // Injects our custom service worker
@@ -39,8 +39,8 @@ module.exports = () => {
         description: 'Takes notes with JavaScript syntax highlighting!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        start_url: '/',
-        publicPath: '/',
+        start_url: './',
+        publicPath: './',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
