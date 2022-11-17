@@ -95,7 +95,7 @@ The following image shows the application's IndexedDB storage:
 ---
 <br/>
 
-## **URL:** https://cryptic-beach-21531.herokuapp.com/
+1. **URL:** https://cryptic-beach-21531.herokuapp.com/
 
-## **GitHub repository:** https://github.com/pav1593/Text-editor
+2. **GitHub repository:** https://github.com/pav1593/Text-editor
 
