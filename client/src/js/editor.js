@@ -29,7 +29,7 @@ export default class {
     getDb().then((data) => {
       console.info('Loaded data from IndexedDB, injecting into editor');
       if(!data) {
-        this.editor.setValue(header || localStorage);
+        this.editor.setValue(header || localData);
         return;
       }
       this.editor.setValue(`${data.value}`);
